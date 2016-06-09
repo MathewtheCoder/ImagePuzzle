@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Identity Round</title>
+	<link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Cerebro2016</a>
+    </div>
+    <script type="text/javascript">
+	var id = document.location.search.substr(4);
+	document.getElementById("picbody").style.backgroundImage = "url('1.jpg')";
+	</script>
+   
+  </div><!-- /.container-fluid -->
+</nav>
+<!--picture puzzle-->
+<div class="container">
+	<center>
+		<div id="picbody" class="picbody" style="background-image: url('./img/3.jpg');background-size: 520px 520px;">
+		
+
+			<div class="row">
+				<div class="row">
+				<div class="col-md-3 color1 tile1 " id="1" >		
+				</div>
+				<div class="col-md-3 color2 tile2 " id="2" >		
+				</div>
+				<div class="col-md-3 color3 tile3 " id="3">		
+				</div>
+				<div class="col-md-3 color4 tile4 " id="4">		
+				</div>	
+			</div>
+			<div class="row">
+				<div class="col-md-3 color5 tile5" id="5">		
+				</div>
+				<div class="col-md-3 color6 tile6" id="6">		
+				</div>
+				<div class="col-md-3 color7 tile7" id="7">		
+				</div>
+				<div class="col-md-3 color8 tile8" id="8">		
+				</div>	
+			</div>
+			<div class="row">
+				<div class="col-md-3 color9 tile9"  id="9">		
+				</div>
+				<div class="col-md-3 color10 tile10" id="10">		
+				</div>
+				<div class="col-md-3 color11 tile11" id="11">		
+				</div>
+				<div class="col-md-3 color12 tile12" id="12">		
+				</div>	
+			</div>
+			<div class="row">
+				<div class="col-md-3 color13 tile13" id="13">		
+				</div>
+				<div class="col-md-3 color14 tile14" id="14">		
+				</div>
+				<div class="col-md-3 color15 tile15" id="15">		
+				</div>
+				<div class="col-md-3 color16 tile16" id="16">		
+				</div>	
+			</div>
+			<br />
+			<br />
+			<button class="wrong">Wrong</button>
+			<button class="displayAll">DisplayAll</button>
+			<button class="unlock">Unlock</button>
+		</div>
+	</center>
+
+<!--js files are imported at last so that page gets loaded quickly-->
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/app.js"></script>
+
+</body>
+</html>
